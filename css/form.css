@@ -1,0 +1,144 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: var(--grey);
+}
+
+:root {
+    --blue:rgb(5, 5, 54);
+    --grey:grey;
+    --white: white;
+}
+
+h1 {
+    font-size: 1rem;
+    color: var(--white);
+    margin: 0.625rem 27rem;
+}
+
+h2 {
+    font-size: 1rem;
+    color: var(--white);
+    text-align: justify;
+    padding: 20px 0 5px 20px;
+}
+
+p {
+    color: var(--white);
+    font-size: 0.8rem;
+    text-align: justify;
+    padding: 1.25rem 1.25rem .25rem 1.25rem;
+}
+
+.paragraph {
+    padding: 1.25rem 0 1.25rem 1.25rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 570px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(5, 5, 54);
+    margin: 1.25rem auto;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0p;
+}
+
+.form-detail {
+    margin: 0 1.8rem;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    margin: 0 .25rem;
+}
+
+:is(input[type=text], input[type=date], input[type=email], input[type=radio], textarea, select) {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 0.6rem;
+    width: 300px;
+    resize: none;
+    transition: linear .4s;
+}
+
+:is(input[type=text], input[type=date], input[type=email], input[type=radio], textarea, select):hover {
+    background-color: lightblue;
+}
+
+.form-field {
+    margin: 0 .25rem;
+}
+
+input[type=submit] {
+    outline: none;
+    border: 1px solid white;
+    width: 100px;
+    color: var(--white);
+    background-color: rgb(5, 5, 54);
+    border-radius: 20px;
+    padding: 0.6rem;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: var(--white);
+    color: rgb(5, 5, 54);
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 0.7rem;
+        margin: 0.625rem 8rem;
+        text-align: center;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.5;
+        width: 350px;
+        height: 1000px;
+    }
+
+    .form-detail {
+        margin: 0 .9rem;
+        color: var(--white);
+        display: flex;
+        flex-direction: column;
+        margin: 0 .25rem;
+        font-size: 0.8rem;
+    }
+
+    :is(input[type=text], input[type=date], input[type=email], input[type=radio], textarea, select) {
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        padding: 0.3rem;
+        width: 150px;
+        resize: none;
+        transition: linear .4s;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 1rem;
+        margin: 0.325rem 7rem;
+        text-align: center;
+    }
+}

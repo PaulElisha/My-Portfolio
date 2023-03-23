@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>MyForm</title>
+</head>
+<body>
+    <h1>Thank you for showing interest in Oscars Tech Bootcamp!</h1>
+    <div class="box">
+        <h2>Tech Bootcamp 1.0</h2>
+
+        <p>Welcome to Oscars tech bootcamp 1.0. This bootcamp is designed to help tech enthusiast
+        to navigate their way around the tech ecosystem and also to help figure you figure out your area of 
+        interest so you can build a lasting career in tech.</p>
+        <p class="paragraph">To participate, kindly fill the form below:</p>
+        
+        <div>
+            <form class="form-box" action=mailto:"someone@example.com" method="post">
+
+                <div class="form-detail">
+                    <label for="fname" name="First Name">First Name:</label><br><br>
+                    <label for="lname" name="Last Name">Last Name:</label><br><br>
+                    <label for="Date of Birth" name="Date of Birth">Date of Birth:</label><br><br>
+                    <label for="email" name="email">Email address:</label><br><br>
+                    <label for="Iskill" name="Interested Skill">Interested Skill:</label><br><br>
+                </div>
+
+                <div class="form-field">
+                    <input type="text" name="First Name" placeholder="John" required><br><br>
+                    <input type="text" name="Last Name" placeholder="Doe" required><br><br>
+                    <input type="date" name="Date of Birth" required><br><br>
+                    <input type="email" name="email" required placeholder="someone@example.com"><br><br>
+                    <select name="skill" required>
+                        <option name="Web development">Web development</option>
+                        <option name="Business Analysis">Blockchain development</option>
+                        <option name="Data Science">Data Science</option>
+                        <option name="Business Analysis">Machine learning</option>
+                        <option name="Artificial Intelligence">Artificial Intelligence</option>
+                        <option name="Business Analysis">Business Analysis</option>
+                    </select><br><br>
+                    <textarea name="message" placeholder="Your Expectation..."></textarea><br><br>
+
+                    <input type="submit" value="Submit">
+                    
+                </div>
+
+            </form><br>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
