@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://lh6.googleusercontent.com/proxy/wWl_D07iX5l4ZDo9T24GRa0G9ifaP5fRf80jwIrH8rDvQiZ3gbcJKQZlVcT6PZrzurWKgXbfba8ENwRMVJnldOt6ua2kqgB49jubP4MVzj6Y4hksZg0fCIf6dhQBYsh_g4cqNXFybzd7GuryiMTt4K-Z0KgIxg=w3840-h2160-p-k-no-nd-mv);
+    background-size: cover;
+}
+
+.main {
+    margin: 100px;
+}
+
+.logoImg {
+    display: block;
+    width: 300px;
+    margin: 0 auto 20px;
+}
+
+input {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    padding: 10px 0;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background-image: url(https://spng.pngfind.com/pngs/s/277-2773838_bucar-en-el-sitio-search-bar-magnifying-glass.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 20px;
+    padding-left: 50px;
+    outline: none;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    text-align: center;
+    margin: 30px 4px;
+    background-color: #dfe1e5;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+}
