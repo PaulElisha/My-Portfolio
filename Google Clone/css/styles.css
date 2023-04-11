@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("Images/google-bg.jpg");
+    background-size: cover;
+}
+
+.main {
+    margin: 100px;
+}
+
+.logoImg {
+    display: block;
+    width: 300px;
+    margin: 0 auto 20px;
+}
+
+input {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    padding: 10px 0;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background-image: url(https://o.remove.bg/downloads/74114dd1-7963-4cf5-9171-509015544aee/search-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 20px;
+    padding-left: 50px;
+    outline: none;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    text-align: center;
+    margin: 30px 4px;
+    background-color: #dfe1e5;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+}
