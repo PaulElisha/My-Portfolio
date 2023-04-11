@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="myScript.js"></script>
+    <title>myCalculator</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>KODAK CALCULATOR</h2>
+        <p>for basic math operation...</p>
+        <hr>
+
+        <input type="text" value="" id="display" readonly>
+        <input type="button" value="1" onclick="displayValue(1)">
+        <input type="button" value="2" onclick="displayValue(2)">
+        <input type="button" value="3" onclick="displayValue(3)">
+        <input type="button" value="+" onclick="displayValue('+')">
+        
+        <input type="button" value="4" onclick="displayValue(4)">
+        <input type="button" value="5" onclick="displayValue(5)">
+        <input type="button" value="6" onclick="displayValue(6)">
+        <input type="button" value="-" onclick="displayValue('-')">
+
+        <input type="button" value="7" onclick="displayValue(7)">
+        <input type="button" value="8" onclick="displayValue(8)">
+        <input type="button" value="9" onclick="displayValue(9)">
+        <input type="button" value="*" onclick="displayValue('*')">
+
+        <input type="button" value="0" onclick="displayValue(0)">
+        <input type="button" value="(" onclick="displayValue('(')">
+        <input type="button" value=")" onclick="displayValue(')')">
+        <input type="button" value="/" onclick="displayValue('/')">
+        <input type="button" value="C" onclick="clearValue()">
+        <input type="button" value="=" onclick="summation()">
+    </div>
+</body>
+</html>

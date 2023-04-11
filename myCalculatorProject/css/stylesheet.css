@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ :root {
+    --blue: rgb(1, 40, 53);
+ }
+
+.container {
+    width: 300px;
+    height: 440px;
+    border-radius: 5px;
+    background: url(https://img.freepik.com/premium-photo/top-view-office-table-desk-workspace-with-calculator-black-pen-laptop-blue_101276-159.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 30px auto;
+    padding: 30px;
+    color: var(--blue);
+    font-size: 14px;
+    box-shadow: 5px 5px 15px rgba(1, 40, 53, 0.534);
+}
+
+.container > p {
+    font-size: 10px;
+}
+
+input[type=text] {
+    width:240px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--blue);
+    resize: none;
+    background-color: white;
+    margin: 16px auto;
+    padding: 20px;
+}
+
+input[type=button] {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    outline: none;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    text-align: center;
+    cursor: pointer;
+    transition: .7s;
+    margin: 2px;
+}
+
+.shadow-drop-center {
+	animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+input[type=button]:hover {
+    background-color: var(--blue);
+    color: white;
+}
