@@ -1,0 +1,61 @@
+
+* {
+    margin: 0;
+    padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-card {
+    margin: 40px auto;
+    box-shadow: 3px 3px 10px lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    font-size: small;
+}
+
+h2 {
+    color: rgb(4, 4, 24);
+    padding: 10px;
+    font-size: 16px;
+}
+
+p {
+    margin: 10px;
+    color: rgb(4, 4, 24);
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    font-size: small;
+    outline: none;
+}
+
+.state {
+    font-size: small;
+}
+
+select {
+    margin-left: 5px;
+    padding: 5px;
+    width: 100px;
+    outline: none;
+    border-radius: 5px; 
+}
+
+button {
+    background-color: rgb(4, 4, 24);
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#demo {
+    padding-left: 50px;
+}
